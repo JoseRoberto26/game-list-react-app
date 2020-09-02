@@ -10,7 +10,6 @@
     "isolatedModules": true,
     "strict": true,
     "moduleResolution": "node",
-    "baseUrl": "./src",
     "typeRoots": ["./node_modules/@types", "./src/typings"],
     "esModuleInterop": true
   },
