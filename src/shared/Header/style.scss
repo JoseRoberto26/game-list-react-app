@@ -1,5 +1,72 @@
 .header {
     width: 100%;
     padding: 1rem 0;
-    background-color: #090931;
+    background-color: #15151d;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    min-height: 30px;
+
+    .center {
+        margin: 0 auto;
+        max-width: 1180px;
+        display: flex;
+        align-items: center;
+
+        .logoAndInput {
+            display: flex;
+            align-items: center;
+
+            .logo {
+                max-width: 80px;
+            }
+
+            .inputBox {
+                position: relative;
+
+                input {
+                    margin-left: 1rem;
+                    font-size: 1rem;
+                    min-width: 270px;
+                    box-sizing: border-box;
+                    padding: 0.75rem 1rem;
+                    background-color: #f7f7f7;
+                    color: #444;
+                    border: 1px solid #d9d9d9;
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+                    border-radius: 4px;
+                    color: #594736;
+                }
+
+                input::placeholder {
+                    color: #a2a0a0;
+                }
+
+                input:focus {
+                    outline: none;
+                }
+
+                .searchIcon {
+                    position: absolute;
+                    right: 0;
+                    padding: 0.65rem 1rem;
+                }
+            }
+        }
+
+
+        .loginOptions {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+
+            a {
+                color: white;
+                margin: 0 0.5rem;
+
+            }
+        }
+    }
+
+
+
 }
