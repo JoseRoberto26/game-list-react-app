@@ -1,15 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Footer } from './shared/Footer';
+import { Home } from './containers/Home';
 
 function App() {
 	return (
-		<div className="main-container">
+		<>
+		<main className="main-container">
 			<Router>
 				<Switch>
-					<Route exact path="/" />
+					<Route exact path="/" >
+						<Home />
+					</Route>
 				</Switch>
 			</Router>
-		</div>
+		</main>
+		<Footer></Footer>
+		</>
 	);
 }
 
